@@ -1,0 +1,40 @@
+body,li{
+    list-style: none;
+    
+}
+.header1{
+    display: flex;
+    background-color: orangered;
+    align-items: center; 
+    justify-content: space-between;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.header2 {
+    display: flex;
+    background-color: rgb(255, 187, 0);
+    padding: 5px;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: stretch;
+
+} 
+
+img{
+    max-width: 100%;
+    display: block;
+   
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin:0 auto;
+    justify-content: space-around;
+}
+.flex>div{
+    flex:200px;
+    margin:10px 10px;
+
+}
